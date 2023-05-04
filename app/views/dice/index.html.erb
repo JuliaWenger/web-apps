@@ -1,0 +1,21 @@
+<h1> Are You Feeling Lucky? </h1>
+
+<p>Time to roll some dice!</p>
+<p> Think positively and make your first roll... </p>
+
+<%=die1 = rand(1..6) 
+die2 = rand(1..6)
+total =die1+die2 %>
+
+<p>
+ <img src="/images/dice/<%=die1 %>.svg">
+
+<p> 
+<img src="/images/dice/<%=die2%>.svg">
+
+<p> Your total roll is <strong> <%=total%>!
+
+<a href="/dice"> Roll again? </a>
+
+
+
